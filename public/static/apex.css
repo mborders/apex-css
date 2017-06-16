@@ -1,0 +1,108 @@
+body {
+  margin: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+textarea, input, button { outline: none; }
+
+button {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  border: 1px solid #AFAFAF;
+  border-radius: 0.2em;
+  cursor: pointer;
+  color: white;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+button > span {
+  vertical-align: middle;
+}
+
+button > span.icon {
+  display: inline-flex;
+  text-align: center;
+}
+
+button > span.icon > i.material-icons {
+  font-size: 1.2em;
+}
+
+button.btn-sm {
+  font-size: 0.8em;
+}
+
+button.btn-lg {
+  font-size: 1.2em;
+}
+
+button.btn-xlg {
+  font-size: 1.4em;
+}
+
+button.btn-round {
+  padding-top: 0.25em;
+  padding-bottom: 0.1em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  border-radius: 1em;
+  line-height: 1em;
+}
+
+button:active {
+  box-shadow: inset 1px 1px 8px 1px #424242;
+}
+
+button.btn-primary {
+  background-color: #2196F3;
+}
+
+button.btn-primary:hover {
+  background-color: #1085E2;
+}
+
+button.btn-success {
+  background-color: #4CAF50;
+}
+
+button.btn-success:hover {
+  background-color: #3B9E40;
+}
+
+button.btn-warning {
+  background-color: #FF9800;
+}
+
+button.btn-warning:hover {
+  background-color: #EE8700;
+}
+
+button.btn-danger {
+  background-color: #f44336;
+}
+
+button.btn-danger:hover {
+  background-color: #e33225;
+}
